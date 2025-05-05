@@ -200,6 +200,14 @@ voxbox_subset/
     └── emns.jsonl
 ```
 
+## Label Your Own Data
+
+```
+python -m tools.annotation \
+    --audio_path 'path to the audio' \
+    --text 'transcription of the audio'
+```
+
 ## License
 
 Please refer to the original licenses of each sub-corpus. This dataset aggregates and annotates the metadata in a unified structure for research purposes.
